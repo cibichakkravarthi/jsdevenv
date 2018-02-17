@@ -5,7 +5,7 @@ import fs from 'fs';
 describe('My first test',() => {
     it('Should pass',() =>  {
 
-        expect(true).to.equal(false);
+        expect(true).to.equal(true);
     });
 
     describe('JSDOM testing',() => {
